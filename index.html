@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="CSS/DOM.css" rel="stylesheet" type="text/css">
+    <script src="jquery-1.12.0.min.js"></script>
+    <script src="script.js"></script>
     <title>Flashcard Site</title>
-
-    <h1>Flashcard Site</h1>
-
   </head>
   <body>
     <div class="container">
-          <h1>HTML help</h1>
+      <h1>Peek-a-boo</h1>
 
-          <p>This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked on.</p>
+      <div class="walrus-hidden">
+        <p>Let's play peek-a-boo. Click here to see the surprise!</p>
 
-          <p>Look at this cute walrus!</p>
-          <img src="img/walrus.jpg">
+      </div>
+      <div class="walrus-showing">
+        <p>What a cute walrus! Click here to hide her again.</p>
+        <img src="CSS/img/walrus.jpg">
+      </div>
     </div>
-
-    <script src="js/jquery-1.9.1.js"></script>
-    <script src="js/scripts.js"></script>
   </body>
 </html>
